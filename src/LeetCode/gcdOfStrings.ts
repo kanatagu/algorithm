@@ -6,15 +6,6 @@ For two strings s and t, we say "t divides s" if and only if s = t + ... + t (i.
 Given two strings str1 and str2, return the largest string x such that x divides both str1 and str2.
 */
 
-/*
-  Most Efficient Methods
- */
-// const gcdOfStrings = (str1: string, str2: string) => {
-//   if (str1 + str2 !== str2 + str1) return '';
-//   const gcd = (a: number, b: number): number => (0 === b ? a : gcd(b, a % b));
-//   return str1.substring(0, gcd(str1.length, str2.length));
-// };
-
 const gcdOfStrings = function (str1: string, str2: string) {
   const [smallerString, largerString] = [str1, str2].sort(
     (a, b) => a.length - b.length
@@ -27,6 +18,15 @@ const gcdOfStrings = function (str1: string, str2: string) {
   }
   return '';
 };
+
+/*
+  Best Solution
+ */
+// const gcdOfStrings = (str1: string, str2: string) => {
+//   if (str1 + str2 !== str2 + str1) return '';
+//   const gcd = (a: number, b: number): number => (0 === b ? a : gcd(b, a % b));
+//   return str1.substring(0, gcd(str1.length, str2.length));
+// };
 
 const str1 = 'ABABAB';
 const str2 = 'ABAB';

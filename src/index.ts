@@ -1,1 +1,1 @@
-require('./LeetCode75/gcdOfStrings');
+require('./LeetCode/twoSum');

@@ -35,7 +35,9 @@ function mergeAlternately(word1: string, word2: string): string {
   return finalMergedWords.join('');
 }
 
-// Sample Solution
+/*
+  Best Solution
+ */
 // function mergeAlternately(word1: string, word2: string): string {
 //   let response = '';
 
