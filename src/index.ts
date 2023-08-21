@@ -1,1 +1,1 @@
-require('./LeetCode/twoSum');
+require('./LeetCode/containsDuplicate');
