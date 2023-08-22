@@ -17,6 +17,7 @@ function canPlaceFlowers(flowerbed: number[], n: number): boolean {
 
     if (!flowerbed[prev] && !flowerbed[index] && !flowerbed[next]) {
       noAdjacent++;
+      flowerbed[index] = 1;
     }
   });
 
