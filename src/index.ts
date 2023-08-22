@@ -1,1 +1,1 @@
-require('./LeetCode/containsDuplicate');
+require('./LeetCode/canPlaceFlowers');
