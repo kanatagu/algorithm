@@ -1,1 +1,1 @@
-require('./Array/reverseVowels');
+require('./TwoPointers/isSubsequence');

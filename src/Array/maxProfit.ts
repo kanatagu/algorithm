@@ -22,5 +22,5 @@ function maxProfit(prices: number[]): number {
   return max;
 }
 
-const prices = [7, 1, 5, 3, 6, 4];
-maxProfit(prices);
+// const prices = [7, 1, 5, 3, 6, 4];
+// maxProfit(prices);

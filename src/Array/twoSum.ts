@@ -38,6 +38,6 @@ function twoSum(nums: number[], target: number): number[] {
 //   return [-1, -1];
 // };
 
-const nums = [2, 7, 11, 15];
-const target = 9;
-console.log(twoSum(nums, target));
+// const nums = [2, 7, 11, 15];
+// const target = 9;
+// twoSum(nums, target);

@@ -29,5 +29,5 @@ function reverseVowels(s: string): string {
   return ans.join('');
 }
 
-const s = 'hello';
-reverseVowels(s);
+// const s = 'hello';
+// reverseVowels(s);

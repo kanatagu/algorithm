@@ -23,6 +23,6 @@ function kidsWithCandies(candies: number[], extraCandies: number): boolean[] {
   return results;
 }
 
-const candies = [2, 3, 5, 1, 3];
-const extraCandies = 3;
-kidsWithCandies(candies, extraCandies);
+// const candies = [2, 3, 5, 1, 3];
+// const extraCandies = 3;
+// kidsWithCandies(candies, extraCandies);

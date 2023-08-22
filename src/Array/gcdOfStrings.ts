@@ -28,7 +28,7 @@ const gcdOfStrings = function (str1: string, str2: string) {
 //   return str1.substring(0, gcd(str1.length, str2.length));
 // };
 
-const str1 = 'ABABAB';
-const str2 = 'ABAB';
+// const str1 = 'ABABAB';
+// const str2 = 'ABAB';
 
-console.log(gcdOfStrings(str1, str2));
+// console.log(gcdOfStrings(str1, str2));

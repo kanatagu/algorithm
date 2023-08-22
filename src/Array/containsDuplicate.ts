@@ -24,5 +24,5 @@ function containsDuplicate(nums: number[]): boolean {
 //   return s.size !== nums.length;
 // }
 
-const arg = [1, 2, 3, 1];
-console.log('func', containsDuplicate(arg));
+// const arg = [1, 2, 3, 1];
+// console.log('func', containsDuplicate(arg));

@@ -44,6 +44,6 @@ function canPlaceFlowers(flowerbed: number[], n: number): boolean {
 //   return false;
 // }
 
-const flowerbed = [1, 0, 0, 0, 1];
-const n = 1;
-canPlaceFlowers(flowerbed, n);
+// const flowerbed = [1, 0, 0, 0, 1];
+// const n = 1;
+// canPlaceFlowers(flowerbed, n);
