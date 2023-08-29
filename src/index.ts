@@ -1,1 +1,1 @@
-require('./TwoPointers/isSubsequence');
+require('./SlidingWindows/findMaxAverage');
